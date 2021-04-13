@@ -16,15 +16,16 @@ Mods that have been verified in our benchmarks to provide at least a 10% overall
 - [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium)
 - [Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium)
 - [Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor)
-- [Cull Leaves](https://www.curseforge.com/minecraft/mc-mods/cull-leaves)
 - [No Fade](https://www.curseforge.com/minecraft/mc-mods/no-fade)
+- [FerriteCore](https://modrinth.com/mod/ferrite-core)
+- [Hydrogen](https://modrinth.com/mod/hydrogen)
 - [Fat Experience Orbs](https://www.curseforge.com/minecraft/mc-mods/fat-experience-orbs)
 - [Fast Furnace](https://www.curseforge.com/minecraft/mc-mods/fast-furnace-for-fabric)
-- [Hydrogen](https://modrinth.com/mod/hydrogen)
-- [FerriteCore](https://modrinth.com/mod/ferrite-core)
+- [Cull Leaves](https://www.curseforge.com/minecraft/mc-mods/cull-leaves)
+    - Must be enabled in mod settings
 - [Enhanced Block Entities](https://modrinth.com/mod/ebe)
     - Requires special setup with Sodium
-    - Depends on [Indium](https://github.com/comp500/Indium)
+    - Depends on Indium
     - Only works for specific blocks
 - [EntityCulling](https://www.curseforge.com/minecraft/mc-mods/entityculling)
     - Add EBE-supported blocks to whitelist to avoid extra path tracing
@@ -33,6 +34,7 @@ Depends on:
 
 - [Fabric](https://fabricmc.net/)
 - [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
+- [Indium](https://github.com/comp500/Indium)
 
 ### Verified
 
