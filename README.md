@@ -5,7 +5,7 @@ Fast, efficient, and optimized modpack built for minimum lag and maximum perform
 ![](benchmarks/1.15.5-a-rdp.png)
 
 This modpack serves as a base for other modpacks, or as a simple solution for maximum performance in vanilla Minecraft. It was inspired by [optifine_alternatives](https://gist.github.com/LambdAurora/1f6a4a99af374ce500f250c6b42e8754) and [fabulously-optimized](
-https://www.curseforge.com/minecraft/modpacks/fabulously-optimized) with a focus of validating claims through benchmarks and removing any unnecessary mods. 
+https://www.curseforge.com/minecraft/modpacks/fabulously-optimized) with a focus of validating claims through benchmarks and removing unnecessary mods. 
 
 ## Mods
 
@@ -55,7 +55,7 @@ Mods that have been proven to increase performance but they alter gameplay in a 
 
 ### Removed
 
-Mods that are not present within this pack due not improving performance, lack of compatibility, or lack of stability.
+Mods that are not present within this pack due to not improving performance, lack of compatibility, or lack of stability.
 
 - [Dynamic FPS](https://www.curseforge.com/minecraft/mc-mods/dynamic-fps)
     - slows down texture loading
@@ -72,15 +72,15 @@ Mods that are not present within this pack due not improving performance, lack o
 
 Raw results are available in the `benchmarks` directory. The following setting were used:
 
-- Launched offline
-- Fullscreen
-- Max FoV (Quake Pro)
-- VSync Off
-- Max Framerate Unlimited
-- Render distance 10
-- Spectator
-- Peaceful
-- All other settings are left on default unless specified.
+- launched offline
+- fullscreen
+- max FoV (Quake Pro)
+- vsync off
+- max framerate unlimited
+- render distance 10
+- spectator
+- peaceful
+- all other settings are left on default unless specified.
 
 Benchmarking was done using the following tools:
 
