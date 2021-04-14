@@ -28,7 +28,6 @@ Depends on:
 
 - [Fabric](https://fabricmc.net/)
 - [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
-- [Indium](https://github.com/comp500/Indium)
 
 ### Verified
 
