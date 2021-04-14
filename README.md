@@ -14,6 +14,7 @@ https://www.curseforge.com/minecraft/modpacks/fabulously-optimized) with a focus
 Mods that have been verified in our benchmarks to provide at least a 10% overall performance uplift.
 
 - [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium)
+	- disable entity culling as it's handled by the more aggresive EntityCulling mod
 - [Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium)
 - [Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor)
 - [No Fade](https://www.curseforge.com/minecraft/mc-mods/no-fade)
@@ -28,6 +29,8 @@ Depends on:
 
 - [Fabric](https://fabricmc.net/)
 - [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
+- [Jumploader](https://www.curseforge.com/minecraft/mc-mods/jumploader)
+	- only needed in forge exclusive environments
 
 ### Verified
 
