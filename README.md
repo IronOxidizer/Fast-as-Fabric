@@ -22,13 +22,12 @@ Mods that have been verified in our benchmarks to provide at least a 10% overall
 - [Fat Experience Orbs](https://www.curseforge.com/minecraft/mc-mods/fat-experience-orbs)
 - [Fast Furnace](https://www.curseforge.com/minecraft/mc-mods/fast-furnace-for-fabric)
 - [Cull Leaves](https://www.curseforge.com/minecraft/mc-mods/cull-leaves)
-    - Must be enabled in mod settings
 - [Enhanced Block Entities](https://modrinth.com/mod/ebe)
     - Requires special setup with Sodium
     - Depends on Indium
     - Only works for specific blocks
 - [EntityCulling](https://www.curseforge.com/minecraft/mc-mods/entityculling)
-    - Add EBE-supported blocks to whitelist to avoid extra path tracing
+    - Add EBE-supported blocks to config whitelist to avoid extra path tracing
 
 Depends on:
 
