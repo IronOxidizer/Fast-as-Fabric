@@ -22,12 +22,7 @@ Mods that have been verified in our benchmarks to provide at least a 10% overall
 - [Fat Experience Orbs](https://www.curseforge.com/minecraft/mc-mods/fat-experience-orbs)
 - [Fast Furnace](https://www.curseforge.com/minecraft/mc-mods/fast-furnace-for-fabric)
 - [Cull Leaves](https://www.curseforge.com/minecraft/mc-mods/cull-leaves)
-- [Enhanced Block Entities](https://modrinth.com/mod/ebe)
-    - Requires special setup with Sodium
-    - Depends on Indium
-    - Only works for specific blocks
 - [EntityCulling](https://www.curseforge.com/minecraft/mc-mods/entityculling)
-    - Add EBE-supported blocks to config whitelist to avoid extra path tracing
 
 Depends on:
 
@@ -53,6 +48,10 @@ Mods that have been proven to increase performance but they alter gameplay in a 
 
 - [Simplex Terrain Generation](https://www.curseforge.com/minecraft/mc-mods/simplex-terrain-generation)
     - completely changes vanilla terrain generation
+- [Enhanced Block Entities](https://modrinth.com/mod/ebe)
+    - Requires patched version of Sodium
+    - Depends on Indium
+    - Add EBE-supported blocks to EntityCulling config whitelist to avoid extra path tracing
 
 ### Removed
 
