@@ -1,8 +1,8 @@
-# FastAsFabric
+# Fast as Fabric
 
-Fast, efficient, and optimized modpack built for minimum lag and maximum performance
+Fast, efficient, and optimized Fabric modpack built for minimum lag and maximum performance
 
-![](benchmarks/1.15.5-a-rdp.png)
+![](benchmarks/1.16.5-a-rdp.png)
 
 This modpack serves as a base for other modpacks, or as a simple solution for maximum performance in vanilla Minecraft. It was inspired by [optifine_alternatives](https://gist.github.com/LambdAurora/1f6a4a99af374ce500f250c6b42e8754) and [fabulously-optimized](
 https://www.curseforge.com/minecraft/modpacks/fabulously-optimized) with a focus of validating claims through benchmarks and removing unnecessary mods. 
@@ -13,24 +13,25 @@ https://www.curseforge.com/minecraft/modpacks/fabulously-optimized) with a focus
 
 Mods that have been verified in our benchmarks to provide at least a 10% overall performance uplift.
 
-- [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium)
-	- disable entity culling as it's handled by the more aggresive EntityCulling mod
-- [Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium)
-- [Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor)
-- [No Fade](https://www.curseforge.com/minecraft/mc-mods/no-fade)
-- [FerriteCore](https://modrinth.com/mod/ferrite-core)
-- [Hydrogen](https://modrinth.com/mod/hydrogen)
 - [Fat Experience Orbs](https://www.curseforge.com/minecraft/mc-mods/fat-experience-orbs)
 - [Fast Furnace](https://www.curseforge.com/minecraft/mc-mods/fast-furnace-for-fabric)
-- [Cull Leaves](https://www.curseforge.com/minecraft/mc-mods/cull-leaves)
-- [EntityCulling](https://www.curseforge.com/minecraft/mc-mods/entityculling)
+- [FerriteCore](https://www.curseforge.com/minecraft/mc-mods/ferritecore)
+- [Hydrogen](https://modrinth.com/mod/hydrogen)
+- [Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor)
+- [Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium)
+- [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) (client only)
+- [No Fade](https://www.curseforge.com/minecraft/mc-mods/no-fade) (client only)
+- [Cull Leaves](https://www.curseforge.com/minecraft/mc-mods/cull-leaves) (client only)
+- [EntityCulling](https://www.curseforge.com/minecraft/mc-mods/entityculling) (client only)
+- [Enhanced Block Entities](https://www.curseforge.com/minecraft/mc-mods/enhanced-block-entities) (client only)
 
 Depends on:
 
 - [Fabric](https://fabricmc.net/)
 - [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
-- [Jumploader](https://www.curseforge.com/minecraft/mc-mods/jumploader)
-	- only needed in forge exclusive environments
+- [Indium](https://github.com/comp500/Indium) (client only)
+- [Mod Menu](https://www.curseforge.com/minecraft/mc-mods/modmenu) (client only, optional)
+- [Jumploader](https://www.curseforge.com/minecraft/mc-mods/jumploader) (client only, required by curse)
 
 ### Verified
 
@@ -50,10 +51,6 @@ Mods that have been proven to increase performance but they alter gameplay in a 
 
 - [Simplex Terrain Generation](https://www.curseforge.com/minecraft/mc-mods/simplex-terrain-generation)
     - completely changes vanilla terrain generation
-- [Enhanced Block Entities](https://modrinth.com/mod/ebe)
-    - requires patched version of Sodium
-    - depends on Indium
-    - add EBE-supported blocks to EntityCulling config whitelist to avoid extra path tracing
 
 ### Removed
 
@@ -157,3 +154,15 @@ After 1 minute of waiting for the entities to settle, time is set to midnight, g
 
 - sum of relative deltas as a percentage
 - used to determine overall impact of the mod
+
+## Notes
+
+- Sodium entity culling is disabled as it's done more aggressively by the EntityCulling mod
+- Add EBE-supported blocks to entity culling config whitelist to avoid extra path tracing
+
+Additional settings to improve server performance:
+
+- in game `/gamerule disableElytraMovementCheck true`
+- in server.properties `allow-flight=true`
+- in server.properties `use-native-transport=true` use only on Linux servers
+- in server.properties `view-distance=6`
