@@ -2,7 +2,7 @@
 
 Fast, efficient, and optimized modpack built for minimum lag and maximum performance
 
-![](benchmarks/1.15.5-a-rdp.png)
+![](benchmarks/1.16.5-a-rdp.png)
 
 This modpack serves as a base for other modpacks, or as a simple solution for maximum performance in vanilla Minecraft. It was inspired by [optifine_alternatives](https://gist.github.com/LambdAurora/1f6a4a99af374ce500f250c6b42e8754) and [fabulously-optimized](
 https://www.curseforge.com/minecraft/modpacks/fabulously-optimized) with a focus of validating claims through benchmarks and removing unnecessary mods. 
