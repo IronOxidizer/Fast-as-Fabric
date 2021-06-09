@@ -53,7 +53,6 @@ Mods that have been proven to increase performance but they alter gameplay in a 
 - [Simplex Terrain Generation](https://www.curseforge.com/minecraft/mc-mods/simplex-terrain-generation)
     - completely changes vanilla terrain generation
 - [Enhanced Block Entities](https://modrinth.com/mod/ebe)
-    - requires patched version of Sodium
     - depends on Indium
     - add EBE-supported blocks to EntityCulling config whitelist to avoid extra path tracing
 
