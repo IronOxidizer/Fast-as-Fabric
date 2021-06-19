@@ -7,21 +7,20 @@ Fast, efficient, and optimized Fabric modpack built for minimum lag and maximum 
 This modpack serves as a base for other modpacks, or as a simple solution for maximum performance in vanilla Minecraft. It was inspired by [optifine_alternatives](https://gist.github.com/LambdAurora/1f6a4a99af374ce500f250c6b42e8754) and [fabulously-optimized](
 https://www.curseforge.com/minecraft/modpacks/fabulously-optimized) with a focus of validating claims through benchmarks and removing unnecessary mods. 
 
+Try it out here: https://www.curseforge.com/minecraft/modpacks/fast-as-fabric
+
 ## Mods
 
-### Benchmark Verified
+### Verified
 
-Mods that have been verified in our benchmarks to provide at least a 10% overall performance uplift.
+Mods that have been verified in our benchmarks to provide at least a 10% overall performance uplift or 5% in any specific scenario.
 
 - [Fat Experience Orbs](https://www.curseforge.com/minecraft/mc-mods/fat-experience-orbs)
-- [Fast Furnace](https://www.curseforge.com/minecraft/mc-mods/fast-furnace-for-fabric)
 - [FerriteCore](https://www.curseforge.com/minecraft/mc-mods/ferritecore)
 - [Hydrogen](https://modrinth.com/mod/hydrogen)
-- [Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor)
 - [Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium)
 - [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) (client only)
 - [No Fade](https://www.curseforge.com/minecraft/mc-mods/no-fade) (client only)
-- [Cull Leaves](https://www.curseforge.com/minecraft/mc-mods/cull-leaves) (client only)
 - [EntityCulling](https://www.curseforge.com/minecraft/mc-mods/entityculling) (client only)
 - [Enhanced Block Entities](https://www.curseforge.com/minecraft/mc-mods/enhanced-block-entities) (client only)
 
@@ -33,39 +32,56 @@ Depends on:
 - [Mod Menu](https://www.curseforge.com/minecraft/mc-mods/modmenu) (client only, optional)
 - [Jumploader](https://www.curseforge.com/minecraft/mc-mods/jumploader) (client only, required by curse)
 
-### Verified
-
-Mods that have been verified by us to improve performance outside of our benchmarks in hard to test or niche scenarios.
-
-- [FastBench](https://www.curseforge.com/minecraft/mc-mods/fastbench-for-fabric)
-
 ### Unverified
 
-Mods that claim to improve performance, but have yet to be verified by us. These are only present within beta releases of this modpack.
+Mods that claim to improve performance, but have yet to be verified by us. These are in consideration to be added but require further testing.
 
+- [Recipe Cache](https://www.curseforge.com/minecraft/mc-mods/recipe-cache) (replaces fast bench + fast furnace)
+- [Starlight](https://github.com/Spottedleaf/Starlight) (replaces phosphor)
+- [Lazy DFU](https://www.curseforge.com/minecraft/mc-mods/lazydfu)
 - [Krypton](https://www.curseforge.com/minecraft/mc-mods/krypton)
+- [C2ME](https://github.com/ishlandbukkit/C2ME-fabric)
+- [Sodium Extra](https://www.curseforge.com/minecraft/mc-mods/sodium-extra) (client only)
+- [Dashloader](https://www.curseforge.com/minecraft/mc-mods/dashloader) (client only)
+- [Client Side Noteblocks](https://www.curseforge.com/minecraft/mc-mods/client-side-noteblocks) (client only)
 
-### Gameplay Altering
+### Extras
 
-Mods that have been proven to increase performance but they alter gameplay in a way that most people may not want or expect. These are not included in the modpack.
+Mods that have been proven to increase performance but they apply in a way that most people may not want or expect. These are not included in the modpack.
 
-- [Simplex Terrain Generation](https://www.curseforge.com/minecraft/mc-mods/simplex-terrain-generation)
+- [Overworld Two](https://www.curseforge.com/minecraft/mc-mods/overworld-two)
     - completely changes vanilla terrain generation
+- [Enhanced Block Entities](https://modrinth.com/mod/ebe) (client only)
+    - depends on Indium which currently lacks official build releases
+- [Smoke Suppression](https://www.curseforge.com/minecraft/mc-mods/smoke-suppression) (client only)
+    - not applicable on lowest settings
+- [Cull Leaves](https://www.curseforge.com/minecraft/mc-mods/cull-leaves) (client only)
+    - not applicable on lowest settings
 
 ### Removed
 
-Mods that are not present within this pack due to not improving performance, lack of compatibility, or lack of stability.
+Mods that are not present within this pack due to inferiority, lack of compatibility, or lack of stability.
 
-- [Dynamic FPS](https://www.curseforge.com/minecraft/mc-mods/dynamic-fps)
-    - slows down texture loading
+- [Simplex Terrain Generation](https://www.curseforge.com/minecraft/mc-mods/simplex-terrain-generation)
+    - inferior to Overworld Two
+- [Fast Furnace](https://www.curseforge.com/minecraft/mc-mods/fast-furnace-for-fabric)
+    - inferior to Recipe Cache
+- [FastBench](https://www.curseforge.com/minecraft/mc-mods/fastbench-for-fabric)
+    - inferior to Recipe Cache
+- [Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor)
+    - inferior to Starlight
 - [Foam​Fix](https://www.curseforge.com/minecraft/mc-mods/foamfix-optimization-mod)
     - incompatible version
-- [OptiFabric](https://www.curseforge.com/minecraft/mc-mods/optifabric)
+- [OptiFabric](https://www.curseforge.com/minecraft/mc-mods/optifabric) (client only)
     - incompatible with Sodium
-- [FastChest](https://www.curseforge.com/minecraft/mc-mods/fastchest)
-    - overlaps Enhanced Block Entities
-- [Fast Redstone](https://modrinth.com/mod/fast-redstone)
-    - not ready for use
+- [FastChest](https://www.curseforge.com/minecraft/mc-mods/fastchest) (client only)
+    - inferior to Enhanced Block Entities
+- [Better Beds](https://www.curseforge.com/minecraft/mc-mods/better-beds) (client only)
+    - inferior to Enhanced Block Entities
+- [No Weather Effects](https://www.curseforge.com/minecraft/mc-mods/no-weather-effects) (client only)
+    - inferior to Sodium Extras
+- [Dynamic FPS](https://www.curseforge.com/minecraft/mc-mods/dynamic-fps) (client only)
+    - slows down texture loading
 
 ## Benchmarking
 
@@ -76,10 +92,10 @@ Raw results are available in the `benchmarks` directory. The following setting w
 - max FoV (Quake Pro)
 - vsync off
 - max framerate unlimited
-- render distance 10
+- render distance 6
 - spectator
 - peaceful
-- all other settings are left on default unless specified.
+- all other settings are set to lowest unless specified.
 
 Benchmarking was done using the following tools:
 
