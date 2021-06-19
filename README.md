@@ -13,7 +13,7 @@ Try it out here: https://www.curseforge.com/minecraft/modpacks/fast-as-fabric
 
 ### Verified
 
-Mods that have been verified in our benchmarks to provide at least a 10% overall performance uplift or 5% in any specific scenario.
+Included mods that have been verified in our benchmarks to provide at least a 10% overall performance uplift or 5% in any specific scenario.
 
 - [Fat Experience Orbs](https://www.curseforge.com/minecraft/mc-mods/fat-experience-orbs)
 - [FerriteCore](https://www.curseforge.com/minecraft/mc-mods/ferritecore)
@@ -22,7 +22,6 @@ Mods that have been verified in our benchmarks to provide at least a 10% overall
 - [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) (client only)
 - [No Fade](https://www.curseforge.com/minecraft/mc-mods/no-fade) (client only)
 - [EntityCulling](https://www.curseforge.com/minecraft/mc-mods/entityculling) (client only)
-- [Enhanced Block Entities](https://www.curseforge.com/minecraft/mc-mods/enhanced-block-entities) (client only)
 
 Depends on:
 
