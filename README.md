@@ -17,6 +17,7 @@ Included mods that have been verified in our benchmarks to provide at least a 10
 
 - [Fat Experience Orbs](https://www.curseforge.com/minecraft/mc-mods/fat-experience-orbs)
 - [FerriteCore](https://www.curseforge.com/minecraft/mc-mods/ferritecore)
+- [Starlight](https://github.com/Spottedleaf/Starlight)
 - [Hydrogen](https://modrinth.com/mod/hydrogen)
 - [Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium)
 - [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) (client only)
@@ -36,7 +37,6 @@ Depends on:
 Mods that claim to improve performance, but have yet to be verified by us. These are in consideration to be added but require further testing.
 
 - [Recipe Cache](https://www.curseforge.com/minecraft/mc-mods/recipe-cache) (replaces fast bench + fast furnace)
-- [Starlight](https://github.com/Spottedleaf/Starlight) (replaces phosphor)
 - [Lazy DFU](https://www.curseforge.com/minecraft/mc-mods/lazydfu)
 - [Krypton](https://www.curseforge.com/minecraft/mc-mods/krypton)
 - [C2ME](https://github.com/ishlandbukkit/C2ME-fabric)
@@ -91,7 +91,7 @@ Raw results are available in the `benchmarks` directory. The following setting w
 - max FoV (Quake Pro)
 - vsync off
 - max framerate unlimited
-- render distance 6
+- render distance 8
 - spectator
 - peaceful
 - all other settings are set to lowest unless specified.
@@ -180,4 +180,4 @@ Additional settings to improve server performance:
 - in game `/gamerule disableElytraMovementCheck true`
 - in server.properties `allow-flight=true`
 - in server.properties `use-native-transport=true` use only on Linux servers
-- in server.properties `view-distance=6`
+- in server.properties `view-distance=8` less than 8 can affect mob despawn behavior
