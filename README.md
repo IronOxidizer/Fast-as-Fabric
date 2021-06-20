@@ -64,7 +64,7 @@ Mods that are not present within this pack due to inferiority, lack of compatibi
 - [Simplex Terrain Generation](https://www.curseforge.com/minecraft/mc-mods/simplex-terrain-generation)
     - inferior to Overworld Two
 - [Fast Furnace](https://www.curseforge.com/minecraft/mc-mods/fast-furnace-for-fabric)
-    - inferior to Recipe Cache
+    - inferior to Recipe Cache and Enhanced Block Entities
 - [FastBench](https://www.curseforge.com/minecraft/mc-mods/fastbench-for-fabric)
     - inferior to Recipe Cache
 - [Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor)
