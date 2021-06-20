@@ -86,15 +86,14 @@ Mods that are not present within this pack due to inferiority, lack of compatibi
 
 Raw results are available in the `benchmarks` directory. The following setting were used:
 
-- launched offline
 - fullscreen
 - max FoV (Quake Pro)
 - vsync off
 - max framerate unlimited
 - render distance 8
-- spectator
-- peaceful
 - all other settings are set to lowest unless specified.
+
+[Kingcake57's Minecraft Benchmark v3](https://www.planetminecraft.com/project/minecraft-benchmark-v3/) is used as the standard benchmark world. A baseline image is created 2 minutes after initializing the world. All benchmarks are performed 2 minutes after loading into the world.
 
 Benchmarking was done using the following tools:
 
@@ -114,25 +113,6 @@ Testing methodology and data presentation inspired by:
 - Intel i7 6700
 - Nvidia GTX 1060 3GB
 - 16GB DDR4 (4GB allocated)
-
-### Standard Bench
-
-The bench world is first randomly generated where spawn has a decent amount of trees. It is then filled evenly with various stress blocks in a 3 chunk radius around the desired test location. These blocks are:
-
-- 16 pistons powered by 1 tick comparator clocks
-- 64 torches
-- 64 cobblestone wall
-- 16 smelting furnaces
-- 64 chests
-
-The player is then moved to a location and angle such that some of the items are not in field of view. Afterwards, entities are spawned 2 blocks above the player using the following commands:
-
-- `/give @p minecraft:repeating_command_block`
-- Place wooden button on it repeating command block
-- Set command to `summon minecraft:chicken ~ ~2 ~`, press button
-- Set command to `summon minecraft:sheep ~ ~2 ~`, press button
-
-After 1 minute of waiting for the entities to settle, time is set to midnight, gamemode switched to spectator, and the world and instance is saved and quit. All benchmarks are done with a fresh copy of the instance and 2 minutes after loading into the world. Once loaded in, the camera and position is never moved, only commands and f3 is used as input.
 
 ### Glossary
 
