@@ -87,13 +87,16 @@ Mods that are not present within this pack due to inferiority, lack of compatibi
 Raw results are available in the `benchmarks` directory. The following setting were used:
 
 - fullscreen
+- 4GB RAM allocated
 - max FoV (Quake Pro)
 - vsync off
 - max framerate unlimited
 - render distance 8
+- peaceful
+- creative
 - all other settings are set to lowest unless specified.
 
-[Kingcake57's Minecraft Benchmark v3](https://www.planetminecraft.com/project/minecraft-benchmark-v3/) is used as the standard benchmark world. A baseline image is created 2 minutes after initializing the world. All benchmarks are performed 2 minutes after loading into the world.
+A world is created using seed [`2151901553968352745`](https://www.reddit.com/r/Minecraft/hthrmk) and baseline settings are configured. After 2 minutes a baseline image created and cloned for each benchmark. All benchmarks are performed 2 minutes after loading into the world.
 
 Benchmarking was done using the following tools:
 
@@ -136,6 +139,7 @@ Testing methodology and data presentation inspired by:
 
 - average chunks generated per second
 - measurement of server and world generation smoothness while exploring
+- pause game after starting pregen (escape menu) to stop server ticks from consuming CPU time
 - manually timed
 - =10000/(time)
 - `/pregen start 50`
