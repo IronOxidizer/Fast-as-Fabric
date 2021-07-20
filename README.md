@@ -2,7 +2,7 @@
 
 Fast, efficient, and optimized Fabric modpack built for minimum lag and maximum performance
 
-![](benchmarks/1.16.5-a-rdp.png)
+![](benchmarks/1.17.0-a-rdp.png)
 
 This modpack serves as a base for other modpacks, or as a simple solution for maximum performance in vanilla Minecraft. It was inspired by [optifine_alternatives](https://gist.github.com/LambdAurora/1f6a4a99af374ce500f250c6b42e8754) and [fabulously-optimized](
 https://www.curseforge.com/minecraft/modpacks/fabulously-optimized) with a focus of validating claims through benchmarks and removing unnecessary mods. 
@@ -15,34 +15,30 @@ Try it out here: https://www.curseforge.com/minecraft/modpacks/fast-as-fabric
 
 Included mods that have been verified in our benchmarks to provide at least a 10% overall performance uplift or 5% in any specific scenario.
 
-- [Fat Experience Orbs](https://www.curseforge.com/minecraft/mc-mods/fat-experience-orbs)
-- [FerriteCore](https://www.curseforge.com/minecraft/mc-mods/ferritecore)
+- [Clumps](https://www.curseforge.com/minecraft/mc-mods/clumps)
+- [Recipe Cache](https://www.curseforge.com/minecraft/mc-mods/recipe-cache)
+- [Lazy DFU](https://www.curseforge.com/minecraft/mc-mods/lazydfu)
+- [C2ME](https://github.com/ishlandbukkit/C2ME-fabric)
 - [Starlight](https://github.com/Spottedleaf/Starlight)
 - [Hydrogen](https://modrinth.com/mod/hydrogen)
+- [FerriteCore](https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric)
 - [Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium)
 - [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) (client only)
+- [Sodium Extra](https://www.curseforge.com/minecraft/mc-mods/sodium-extra) (client only)
 - [No Fade](https://www.curseforge.com/minecraft/mc-mods/no-fade) (client only)
 - [EntityCulling](https://www.curseforge.com/minecraft/mc-mods/entityculling) (client only)
+- [Client Side Noteblocks](https://www.curseforge.com/minecraft/mc-mods/client-side-noteblocks) (client only)
 
 Depends on:
 
 - [Fabric](https://fabricmc.net/)
 - [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
-- [Indium](https://github.com/comp500/Indium) (client only)
-- [Mod Menu](https://www.curseforge.com/minecraft/mc-mods/modmenu) (client only, optional)
-- [Jumploader](https://www.curseforge.com/minecraft/mc-mods/jumploader) (client only, required by curse)
 
 ### Unverified
 
 Mods that claim to improve performance, but have yet to be verified by us. These are in consideration to be added but require further testing.
 
-- [Recipe Cache](https://www.curseforge.com/minecraft/mc-mods/recipe-cache) (replaces fast bench + fast furnace)
-- [Lazy DFU](https://www.curseforge.com/minecraft/mc-mods/lazydfu)
 - [Krypton](https://www.curseforge.com/minecraft/mc-mods/krypton)
-- [C2ME](https://github.com/ishlandbukkit/C2ME-fabric)
-- [Sodium Extra](https://www.curseforge.com/minecraft/mc-mods/sodium-extra) (client only)
-- [Dashloader](https://www.curseforge.com/minecraft/mc-mods/dashloader) (client only)
-- [Client Side Noteblocks](https://www.curseforge.com/minecraft/mc-mods/client-side-noteblocks) (client only)
 
 ### Extras
 
@@ -51,7 +47,9 @@ Mods that have been proven to increase performance but they apply in a way that 
 - [Overworld Two](https://www.curseforge.com/minecraft/mc-mods/overworld-two)
     - completely changes vanilla terrain generation
 - [Enhanced Block Entities](https://modrinth.com/mod/ebe) (client only)
-    - depends on Indium which currently lacks official build releases
+    - can be used without Indium but results in small graphical artifacts
+    - add EBE-supported blocks to entity culling config whitelist to avoid extra path tracing
+    - [Indium](https://github.com/comp500/Indium) (client only) is currently bugged causing FPS to be halved
 - [Smoke Suppression](https://www.curseforge.com/minecraft/mc-mods/smoke-suppression) (client only)
     - not applicable on lowest settings
 - [Cull Leaves](https://www.curseforge.com/minecraft/mc-mods/cull-leaves) (client only)
@@ -60,6 +58,7 @@ Mods that have been proven to increase performance but they apply in a way that 
 ### Removed
 
 Mods that are not present within this pack due to inferiority, lack of compatibility, or lack of stability.
+
 
 - [Simplex Terrain Generation](https://www.curseforge.com/minecraft/mc-mods/simplex-terrain-generation)
     - inferior to Overworld Two
@@ -71,6 +70,8 @@ Mods that are not present within this pack due to inferiority, lack of compatibi
     - inferior to Starlight
 - [Foam​Fix](https://www.curseforge.com/minecraft/mc-mods/foamfix-optimization-mod)
     - incompatible version
+- [DashLoader](https://www.curseforge.com/minecraft/mc-mods/dashloader) (client only)
+    - incompatible with Sodium and Hydrogen
 - [OptiFabric](https://www.curseforge.com/minecraft/mc-mods/optifabric) (client only)
     - incompatible with Sodium
 - [FastChest](https://www.curseforge.com/minecraft/mc-mods/fastchest) (client only)
@@ -79,6 +80,8 @@ Mods that are not present within this pack due to inferiority, lack of compatibi
     - inferior to Enhanced Block Entities
 - [No Weather Effects](https://www.curseforge.com/minecraft/mc-mods/no-weather-effects) (client only)
     - inferior to Sodium Extras
+- [Fat Experience Orbs](https://www.curseforge.com/minecraft/mc-mods/fat-experience-orbs)
+    - replaced by Clumps
 - [Dynamic FPS](https://www.curseforge.com/minecraft/mc-mods/dynamic-fps) (client only)
     - slows down texture loading
 
@@ -157,7 +160,6 @@ Testing methodology and data presentation inspired by:
 ## Notes
 
 - Sodium entity culling is disabled as it's done more aggressively by the EntityCulling mod
-- Add EBE-supported blocks to entity culling config whitelist to avoid extra path tracing
 
 Additional settings to improve server performance:
 
