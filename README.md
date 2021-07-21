@@ -49,7 +49,7 @@ Mods that have been proven to increase performance but they apply in a way that 
 - [Enhanced Block Entities](https://modrinth.com/mod/ebe) (client only)
     - can be used without Indium but results in small graphical artifacts
     - add EBE-supported blocks to entity culling config whitelist to avoid extra path tracing
-    - [Indium](https://github.com/comp500/Indium) (client only) is currently bugged causing FPS to be halved
+    - [Indium](https://github.com/comp500/Indium) (client only) has an [issue](https://github.com/comp500/Indium/issues/10) disabling Sodium rendering
 - [Smoke Suppression](https://www.curseforge.com/minecraft/mc-mods/smoke-suppression) (client only)
     - not applicable on lowest settings
 - [Cull Leaves](https://www.curseforge.com/minecraft/mc-mods/cull-leaves) (client only)
