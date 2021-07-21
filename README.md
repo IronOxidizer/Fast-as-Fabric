@@ -59,7 +59,8 @@ Mods that have been proven to increase performance but they apply in a way that 
 
 Mods that are not present within this pack due to inferiority, lack of compatibility, or lack of stability.
 
-
+- [Fat Experience Orbs](https://www.curseforge.com/minecraft/mc-mods/fat-experience-orbs)
+    - replaced by Clumps
 - [Simplex Terrain Generation](https://www.curseforge.com/minecraft/mc-mods/simplex-terrain-generation)
     - inferior to Overworld Two
 - [Fast Furnace](https://www.curseforge.com/minecraft/mc-mods/fast-furnace-for-fabric)
@@ -80,8 +81,6 @@ Mods that are not present within this pack due to inferiority, lack of compatibi
     - inferior to Enhanced Block Entities
 - [No Weather Effects](https://www.curseforge.com/minecraft/mc-mods/no-weather-effects) (client only)
     - inferior to Sodium Extras
-- [Fat Experience Orbs](https://www.curseforge.com/minecraft/mc-mods/fat-experience-orbs)
-    - replaced by Clumps
 - [Dynamic FPS](https://www.curseforge.com/minecraft/mc-mods/dynamic-fps) (client only)
     - slows down texture loading
 
